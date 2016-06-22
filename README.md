@@ -1,7 +1,7 @@
 ## learningR
 The notes for learning R programming
 
-## full.namesh= TRUE is very usefull when the working directory is not exact the one you want to open the .csv files
+### full.namesh= TRUE is very usefull when the working directory is not exact the one you want to open the .csv files
 files1 <- list.files( path, full.names = TRUE)
 read.csv(files1)
 
@@ -51,5 +51,5 @@ pollutantmean <- function(directory, pollutant, id=1:332){
 	mean(filedata[,pollutant], na.rm=TRUE)
 }
 	
-## It's different that filedata<-data.frame() come out of the for() sentence or not. 
-## filedata<- read.csv(files[i]) cannot save a series csv files in the filedata, a data.frame is needed.
+### It's different that filedata<-data.frame() come out of the for() sentence or not. 
+### filedata<- read.csv(files[i]) cannot save a series csv files in the filedata, a data.frame is needed.
