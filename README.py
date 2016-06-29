@@ -1,4 +1,4 @@
-## learningR
+## learningR - hello
 The notes for learning R programming
 
 ### full.namesh= TRUE is very usefull when the working directory is not exact the one you want to open the .csv files
